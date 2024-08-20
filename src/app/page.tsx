@@ -1,7 +1,8 @@
+import About from "./about/page";
 export default function Home() {
   return (
      <main className=" text-center mt-10" >
-       <h1>This is my first React Webiste with Typescript</h1>
+       <About name={'shivam'} age={19} />       
      </main>
   );
 }
